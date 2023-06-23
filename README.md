@@ -13,7 +13,7 @@ In the `project_01/` folder you can find an analysis of the World Cup dataset fo
 
 **Sample data visualization:** 
 
-<img src="https://raw.githubusercontent.com/Tommnn/dataviz_final_project3/main/figures/map_brazil.png" width="60%" height="60%">
+<img src="https://raw.githubusercontent.com/Tommnn/dataviz_final_project3/main/figures/map_plot.png" width="60%" height="60%">
 
 
 ## Project 02
