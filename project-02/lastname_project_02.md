@@ -7,8 +7,6 @@ output:
     toc_float: true
 ---
 
-# Data Visualization Project 02
-
 ## Executive Summary
 
 The purpose of this project was to analyze service complaints in NYC and gain insights into the types of complaints and their geographical distribution. The data set used in this analysis contained information about complaint types, locations, and counts.
@@ -28,17 +26,9 @@ To visually represent the findings, several data visualizations were created:
 
 Bar Chart: A bar chart was generated to display the top 8 complaint types and their respective counts. This chart provided a clear overview of the most prevalent complaint types.
 
-<img src="https://github.com/Tommnn/dataviz_final_project3/blob/main/figures/plot_comp.png" width="50%" height="40%">
-
 Spatial Map: A spatial map was created to depict the geographical distribution of service complaints. Different complaint types were represented by color-coded markers, allowing for easy identification of complaint hotspots.
 
-<img src="https://github.com/Tommnn/dataviz_final_project3/blob/main/figures/plot_nyc_requests.png" width="50%" height="40%">
-
-
 Lollipop chart: A lollipop graph was used to illustrate the coefficients of a multionomial regression undertaken to understand the relationship between latitude and different complaint types.
-
-<img src="https://github.com/Tommnn/dataviz_final_project3/blob/main/figures/plot_model_lollipop.png" width="50%" height="50%">
-
 
 #### Key Findings:
 
@@ -46,4 +36,4 @@ Lollipop chart: A lollipop graph was used to illustrate the coefficients of a mu
 
 2. Geographical Distribution: A spatial map was created to visualize the distribution of service complaints. Hotspots of complaints were identified in certain areas such as the E231st St, indicating the presence of specific service-related issues.
 
-3. Correlation Analysis: A multinomial logistic regression model was employed to explore potential correlations between complaint types and geographic coordinates.
+3. Correlation Analysis: A multinomial logistic regression model was employed to explore potential correlations between complaint types and geographic coordinates. 

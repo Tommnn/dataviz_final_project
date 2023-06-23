@@ -18,14 +18,11 @@ In the `project_01/` folder you can find an analysis of the World Cup dataset fo
 
 ## Project 02
 
-In this project, I explored ... _[short description of your revised project goes here]_ Find the code and report in the `project_02/` folder.
+In this project, I explored service complaints in NYC and gain insights into the types of complaints and their geographical distribution. The data set used in this analysis contained information about complaint types, locations, and counts.
 
 **Sample data visualization:** 
 
-_[include your favorite visualization from this project here]_
-<img src="https://raw.githubusercontent.com/reisanar/dataviz_final_project/main/figures/fl_higher_ed.png" width="80%" height="80%">
-
-(you can place your figures in the `figures/` folder and use the `![](path_to_picture)` option to add the pictures here)
+<img src="https://raw.githubusercontent.com/Tommnn/dataviz_final_project3/main/figures/plot_nyc_requests.png" width="80%" height="80%">
 
 
 ## Project 03
@@ -42,4 +39,4 @@ I included the chart with information about average percipitation depending on t
 
 ### Moving Forward
 
-_Please add here a short reflection on what you learned and what you plan to continue exploring in terms of data visualization, data storytelling, reproducible research, and/or related topics._
+I learned a lot about visualizing data in the course. Moreover, I learned different principles and what data storytelling is. For the future, I want to work on those skills. First, I want to implement the google drive option which I described in project 2. Second, I want to find out why I always run into problems when loading my interactive plots directly from Github. One reason could be the size of the files.

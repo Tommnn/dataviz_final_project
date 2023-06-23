@@ -21,9 +21,8 @@ The main goal is to change the approach how we source/read our data. In the prev
 
 Instead of this: 
 
-```{r}
-service_requests <- read_csv("/Users/tommann/Downloads/rei_NYC_311aa20a495c777d9bd4a81ebf785a836c3e2d16fcca3efad58ae82b97ed8fd1e71.csv")
-```
+>> service_requests <- read_csv("/Users/tommann/Downloads/rei_NYC_311aa20a495c777d9bd4a81ebf785a836c3e2d16fcca3efad58ae82b97ed8fd1e71.csv")
+
 
 ```{r}
 library(readr)
@@ -52,7 +51,13 @@ Another change that has been made is the saving of data visualizations. Previous
 
 I'll used the following function for one of the plots:
 
->> saveWidget(viz_com, file = "/Users/tommann/Developer/dataviz_final_project3/figures/plotly_ia.html")
+>> saveWidget(viz_com, file = "/Users/tommann/Developer/dataviz_final_project3/figures/plotly1.html")
+
+```{r}
+htmltools::includeHTML("/Users/tommann/Developer/dataviz_final_project3/figures/plotly1.html")
+```
+
+
 
 
 
