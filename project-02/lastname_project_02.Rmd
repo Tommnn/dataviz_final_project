@@ -33,16 +33,10 @@ We could do this with a file that is stored in google drive:
 
 Example:
 
-```{r}
-library(googledrive)
-```
+>> library(googledrive)
 
-```{r}
-drive_auth()
-```
+>>drive_auth()
 
-
-# Replace <path_to_file> with the actual path to your CSV file
 >> file_path <- "<path_to_file>"
 >> data <- read_csv(file_path)
 
@@ -53,10 +47,10 @@ I'll used the following function for one of the plots:
 
 >> saveWidget(viz_com, file = "/Users/tommann/Developer/dataviz_final_project3/figures/plotly1.html")
 
-```{r}
-htmltools::includeHTML("/Users/tommann/Developer/dataviz_final_project3/figures/plotly1.html")
-```
 
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/Tommnn/dataviz_final_project3/main/figures/plot_nyc_requests.png")
+```
 
 
 
