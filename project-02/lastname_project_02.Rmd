@@ -9,4 +9,51 @@ output:
 
 # Data Visualization Project 02
 
-_revised version of mini-project 02 goes here_
+For this project, two main improvements will be made. First, the readme file will be adjusted and data visualizations will be included. Therefore, we source from the existing github repo. Second, we take a look at how we can change the way we read in data. Instead of sourcing from my computer, the data should be loaded from the local source.
+
+## ReadMe file 
+
+The ReadMe file was adjusted to give the reader a better overview. I implemented some illustrations to give the viewer more transparency about the analysis. I sourced the images not from my computer but from Github. This makes it reproducible and easier to follow for other people.
+
+## Data Analysis
+
+The main goal is to change the approach how we source/read our data. In the previous project, I loaded the data set from the computer. But Prof. Rei Sanchez recommended to choose an approach that makes it possible for others to reproduce my analysis. Therefore I use an open google drive. To upload the file to github would be almost impossible because of the size of it.
+
+Instead of this: 
+
+```{r}
+service_requests <- read_csv("/Users/tommann/Downloads/rei_NYC_311aa20a495c777d9bd4a81ebf785a836c3e2d16fcca3efad58ae82b97ed8fd1e71.csv")
+```
+
+```{r}
+library(readr)
+```
+
+
+We could do this with a file that is stored in google drive:
+
+Example:
+
+```{r}
+library(googledrive)
+```
+
+```{r}
+drive_auth()
+```
+
+
+# Replace <path_to_file> with the actual path to your CSV file
+>> file_path <- "<path_to_file>"
+>> data <- read_csv(file_path)
+
+
+Another change that has been made is the saving of data visualizations. Previously, those graphs haven't been saved at all. Now we use the SaveWidget function to save the interactive plots as HTML's into our folder.
+
+I'll used the following function for one of the plots:
+
+>> saveWidget(viz_com, file = "/Users/tommann/Developer/dataviz_final_project3/figures/plotly_ia.html")
+
+
+
+

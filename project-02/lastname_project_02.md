@@ -30,7 +30,6 @@ Bar Chart: A bar chart was generated to display the top 8 complaint types and th
 
 <img src="https://github.com/Tommnn/dataviz_final_project3/blob/main/figures/plot_comp.png" width="50%" height="40%">
 
-
 Spatial Map: A spatial map was created to depict the geographical distribution of service complaints. Different complaint types were represented by color-coded markers, allowing for easy identification of complaint hotspots.
 
 <img src="https://github.com/Tommnn/dataviz_final_project3/blob/main/figures/plot_nyc_requests.png" width="50%" height="40%">
